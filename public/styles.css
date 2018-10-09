@@ -1,0 +1,17 @@
+/* from https://www.dafont.com/simpsonfont.font */
+@font-face {
+  font-family: "The-Simpsons";
+  src: url("./Simpsonsfont.ttf") format("ttf"),
+       url("./Simpsonsfont.woff") format("woff");
+}
+
+body {
+  background-image: url("./simpsonsBackground.jpg");
+  font-family: "The-Simpsons";
+  text-align: center;
+}
+
+.description {
+  width: 35em;
+  margin: auto;
+}
