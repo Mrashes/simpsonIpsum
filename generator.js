@@ -35,10 +35,10 @@ GenerateNewText.prototype.getParagraph = function() {
     var sentance = this.getRandomSentence()
     if (sentance !== undefined) {
       if (firstSentence) {
-        paragraph = paragraph.concat(this.getRandomSentence());
+        paragraph = paragraph.concat(sentance);
         firstSentence = false;
       } else {
-        paragraph = paragraph.concat(" " + this.getRandomSentence());
+        paragraph = paragraph.concat(" " + sentance);
       }
     }
   }
