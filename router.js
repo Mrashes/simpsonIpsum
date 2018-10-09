@@ -1,3 +1,4 @@
+'use strict';
 // Require the necessary modules
 const loremIpsum = require("./generator.js");
 const querystring = require("querystring");
